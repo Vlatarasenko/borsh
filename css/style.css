@@ -1,0 +1,59 @@
+/* 
+#FFFFFF - primary-color
+#F4F4F4 - secondary-color
+#28A745 - primary-accent
+#0284D0 - secondary-accent
+#333333 - text-color
+#E9E9E9 - title-color
+#808080 - send-text
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Секция Яны */
+/* Provide */
+.provide {
+    display: flex;
+    
+}
+.provide-img {}
+
+.provide-container {
+    background-color: #28A745;
+}
+
+.provide-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    color: #FFFFFF;
+}
+
+.provide-subtitle {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: #FFFFFF;
+
+}
+
+.provide-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #FFFFFF;
+}
+
+.provide-btn {
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    background-color: #28A745;
+    color: #FFFFFF;
+}
+
