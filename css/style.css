@@ -8,7 +8,9 @@
 #808080 - send-text
 */
 
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Секция Яны */
 /* Provide */
@@ -23,30 +25,24 @@
 }
 
 .provide-title {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 33px;
+    line-height: 1.65;
     color: #FFFFFF;
 }
 
 .provide-subtitle {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 300;
     font-size: 38px;
-    line-height: 48px;
+    line-height: 1.26;
     color: #FFFFFF;
 
 }
 
 .provide-text {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.56;
     color: #FFFFFF;
 }
 
@@ -54,11 +50,9 @@
     cursor: pointer;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.56;
     background-color: #28A745;
     color: #FFFFFF;
 }
