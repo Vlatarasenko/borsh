@@ -57,3 +57,41 @@ body {
     color: #FFFFFF;
 }
 
+/* Секція Іллі */
+
+.social-date{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    color: #212121
+    }
+    
+    .social-title{
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: #212121
+    
+    }
+    
+    .social-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #212121;
+    
+    }
+    
+    .modal-btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #FFFFFF;
+    }
+    
+    .modal-btn:hover,
+    .modal-btn:focus{
+        background-color: #0284D0;
+        color: #212121;
+       color: #212121;
+}
