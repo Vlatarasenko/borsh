@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* 
 #FFFFFF - primary-color
 #F4F4F4 - secondary-color
@@ -29,6 +30,72 @@ ul {
 a {
   text-decoration: none;
 }
+
+h1,h2,h3,h4,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  padding-left: 0;
+}
+
+/* Секция Саши */
+/* ABOUT */
+ 
+.about-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.about-container {
+  width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primary-color);
+  
+}
+
+.about-list {
+  display: flex;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-bottom: 19px;
+  padding-top: 122px;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 71px;
+} 
+
+.about-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+.about-text {
+  width: 362px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--text-color);
+}
+
+
 
 /* Секция Яны */
 /* Provide */
@@ -130,4 +197,4 @@ a {
   line-height: 1.56;
   text-align: center;
   color: var(--text-color);
-}
+=======
