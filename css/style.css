@@ -1,0 +1,164 @@
+
+/* 
+#FFFFFF - primary-color
+#F4F4F4 - secondary-color
+#28A745 - primary-accent
+#0284D0 - secondary-accent
+#333333 - text-color
+#E9E9E9 - title-color
+#808080 - send-text
+*/
+
+:root {
+  --primary-font-page:var(--primary-font-page);
+  --primary-color: #ffffff;
+  --secondary-color: #f4f4f4;
+  --primary-accent: #28a745;
+  --secondary-accent: #0284d0;
+  --text-color: #333333;
+  --title-color: #e9e9e9;
+  --send-text: #808080;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Секция Яны */
+/* Provide */
+.provide {
+  display: flex;
+}
+.provide-img {
+}
+
+.provide-container {
+  background-color: #28a745;
+}
+
+.provide-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #ffffff;
+}
+
+.provide-subtitle {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #ffffff;
+}
+
+.provide-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+}
+
+.provide-btn {
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+  /* ======== SECTION VLAD ======== */
+
+
+.body-desc {
+    font-family: var(--primary-font-page);
+
+    font-size: 20px;
+    line-height: 1.65;
+    text-align: center;
+    color:var(--text-color);
+}
+
+.body-title {
+  font-family: var(--primary-font-page);
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    text-align: center;
+    color: #333333;
+}
+.body-excerpt {
+    font-family: var(--primary-font-page);
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+  
+    color:var(--text-color);
+}
+.body-subtitle {
+    font-family: var(--primary-font-page);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.27;
+
+    text-align: center;
+  
+    color: var(--text-color);
+}
+.body-text {
+   font-family: var(--primary-font-page);
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+  
+    color: var(--text-color);
+}
+
+/* ======== / SECTION VLAD ========*/
+
+
+/* Секція Іллі */
+
+.social-date {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #212121;
+}
+
+.social-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #212121;
+}
+
+.social-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #212121;
+}
+
+.modal-btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #0284d0;
+  color: #212121;
+  color: #212121;
+}
