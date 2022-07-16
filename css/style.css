@@ -190,18 +190,21 @@ a {
 
 
 /* Callback */
+.callback {
+  background: var(--accent-bgc);
+}
 .Callback .title {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.2;
   color: var(--text-color);
-  background: var(--accent-bgc);
+
 }
 
 .callback p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--send-text);
+  color: var(--send-text);;
 }
 
 .callback .button {
