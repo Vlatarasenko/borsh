@@ -9,6 +9,8 @@
 */
 
 :root {
+  --primary-page-font: 'Open Sans',
+    sans-serif;
   --primary-color: #ffffff;
   --secondary-color: #f4f4f4;
   --primary-accent: #28a745;
@@ -19,7 +21,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family:var(--primary-page-font);
 }
 
 ul {
@@ -73,6 +75,57 @@ a {
   background-color: #28a745;
   color: #ffffff;
 }
+
+/* ======== SECTION VLAD ======== */
+
+.body-desc {
+  font-family: var(--primary-page-font);
+
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.body-title {
+  font-family: var(--primary-page-font);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.body-excerpt {
+  font-family: var(--primary-page-font);
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+
+  color: var(--text-color);
+}
+
+.body-subtitle {
+  font-family: var(--primary-page-font);
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.27;
+
+  text-align: center;
+
+  color: var(--text-color);
+}
+
+.body-text {
+  font-family: var(--primary-page-font);
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+
+  color: var(--text-color);
+}
+
+/* ======== / SECTION VLAD ========*/
 
 /* Секція Іллі */
 
