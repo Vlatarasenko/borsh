@@ -18,10 +18,11 @@
   --text-color: #333333;
   --title-color: #e9e9e9;
   --send-text: #808080;
+  --accent-bgc: #E5E5E5;
 }
 
 body {
-  font-family:var(--primary-page-font);
+  font-family: var(--primary-page-font);
 }
 
 ul {
@@ -37,8 +38,8 @@ a {
 .provide {
   display: flex;
 }
-.provide-img {
-}
+
+.provide-img {}
 
 .provide-container {
   background-color: #28a745;
@@ -171,6 +172,7 @@ a {
   text-align: center;
   color: var(--text-color);
 }
+
 .head-text {
   font-weight: 300;
   font-size: 38px;
@@ -178,9 +180,34 @@ a {
   text-align: center;
   color: var(--text-color);
 }
+
 .lower-paragraph {
   font-size: 18px;
   line-height: 1.56;
   text-align: center;
   color: var(--text-color);
+}
+
+
+/* Callback */
+.Callback .title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.2;
+  color: var(--text-color);
+  background: var(--accent-bgc);
+}
+
+.callback p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--send-text);
+}
+
+.callback .button {
+  background-color: var(--primary-accent);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  border-radius: 5px;
 }
