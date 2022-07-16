@@ -19,6 +19,7 @@
   --title-color: #e9e9e9;
   --send-text: #808080;
   --accent-bgc: #E5E5E5;
+  --bgc-request: #F5F5F5;
 }
 
 body {
@@ -193,6 +194,7 @@ a {
 .callback {
   background: var(--accent-bgc);
 }
+
 .Callback .title {
   font-weight: 300;
   font-size: 38px;
@@ -204,13 +206,16 @@ a {
 .callback p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--send-text);;
+  color: var(--send-text);
+  background-color: var( --bgc-request);
 }
 
 .callback .button {
+  color: var(--primary-color);
   background-color: var(--primary-accent);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
   border-radius: 5px;
+  border-color: var(--primary-accent);
 }
