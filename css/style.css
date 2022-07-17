@@ -19,6 +19,19 @@
   --send-text: #808080;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  outline: 1px solid red;
+  width: 1360px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   font-family: var(--primary-page-font);
 }
@@ -31,8 +44,8 @@ a {
   text-decoration: none;
 }
 
-/* Секция Яны */
-/* Provide */
+/* =========================Секция Яны========================= */
+
 .provide {
   display: flex;
 }
@@ -75,7 +88,7 @@ a {
   color: #ffffff;
 }
 
-/* ======== SECTION VLAD ======== */
+/* =========================SECTION VLAD========================= */
 
 .body-desc {
   font-family: var(--primary-page-font);
@@ -124,9 +137,7 @@ a {
   color: var(--text-color);
 }
 
-/* ======== / SECTION VLAD ========*/
-
-/* Секція Іллі */
+/* =========================Секція Іллі========================= */
 
 .social-date {
   font-weight: 400;
@@ -163,7 +174,8 @@ a {
   color: #212121;
 }
 
-/* Daryna */
+/* =========================Daryna========================= */
+
 .upper-paragraph {
   font-size: 20px;
   line-height: 1.65;
