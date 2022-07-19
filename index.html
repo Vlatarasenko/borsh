@@ -9,7 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -18,7 +24,7 @@
     <header class="header">
       <div class="container">
         <nav class="header-nav">
-          <a href="./images/logo.jpg" class="logo">Finance Ledger</a>
+          <a href="./images/logo.jpg" class="logo">Finance <span class="accent">Ledger</span></a>
           <ul class="header-nav-list">
             <li class="header-nav-item">
               <a class="header-nav-link" href="">Home</a>
@@ -42,7 +48,7 @@
     <main>
       <!-- =========================Секция Игоря================ -->
 
-      <section class="preview">
+      <section class="preview section">
         <div class="container">
           <img
             src="./images/preview/preview_image.jpg"
@@ -52,29 +58,29 @@
           />
           <h1 class="preview_title">The Sky Is The Limit</h1>
           <p class="preview_text">We provide world class financial assistance</p>
-          <button type="button" class="button">Read More</button>
+          <button type="button" class="button hero-button">Read More</button>
         </div>
       </section>
 
       <!-- =========================Секция Саши========================= -->
 
-      <section class="about">
+      <section class="about section">
         <div class="container">
           <!-- h2 будет скрыт -->
-          <h2 class="about-title">About</h2>
+          <h2 class="suptitle">About</h2>
 
           <ul class="about-list">
             <li class="about-item">
-              <h3 class="about-subtitle">Investmant Banking</h3>
-              <p class="about-text">
+              <h3 class="title">Investmant Banking</h3>
+              <p class="text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
                 necessitatibus!
               </p>
             </li>
 
             <li class="about-item">
-              <h3 class="about-subtitle">Portfolio Manager</h3>
-              <p class="about-text">
+              <h3 class="title">Portfolio Manager</h3>
+              <p class="text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
                 necessitatibus!
               </p>
@@ -93,7 +99,7 @@
 
       <!-- =========================Секция Яны========================= -->
 
-      <section class="provide">
+      <section class="provide section">
         <div class="container">
           <img
             class="provide-img"
@@ -103,25 +109,25 @@
             height="460"
           />
           <div class="provide-container">
-            <h2 class="provide-title">What you are looking for</h2>
-            <h3 class="provide-subtitle">We provide bespoke solutions</h3>
-            <p class="provide-text">
+            <p class="suptitle">What you are looking for</p>
+            <h2 class="title">We provide bespoke solutions</h2>
+            <p class="text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
               quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
               itaque rerum temporibus doloribus iste maiores deleniti?
             </p>
-            <button class="provide-btn" type="button">Read More</button>
+            <button class="button" type="button">Read More</button>
           </div>
         </div>
       </section>
 
       <!-- =========================Daryna========================= -->
 
-      <section class="business-cases">
+      <section class="business-cases section">
         <div class="container">
-          <p class="upper-paragraph">This is what we do</p>
-          <h2 class="head-text">Business Cases</h2>
-          <p class="lower-paragraph">
+          <p class="suptitle">This is what we do</p>
+          <h2 class="title">Business Cases</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
           </p>
           <ul>
@@ -195,17 +201,17 @@
 
       <!--=========================Секція Іллі=========================-->
 
-      <section class="social">
+      <section class="social section">
         <div class="container">
           <div class="social-left-side">
-            <p class="social-date">April 16 2020</p>
-            <h2 class="social-title">Blog Post One</h2>
-            <p class="social-text">
+            <p class="suptitle">April 16 2020</p>
+            <h2 class="title">Blog Post One</h2>
+            <p class="text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
               quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
               itaque rerum temporibus doloribus iste maiores deleniti?
             </p>
-            <button class="modal-btn" type="button">Read Our Blog</button>
+            <button class="button" type="button">Read Our Blog</button>
           </div>
           <img
             class="social-image"
@@ -219,31 +225,31 @@
 
       <!-- ========================="Vlad"========================= -->
 
-      <section class="body">
+      <section class="body section">
         <div class="container">
-          <p class="body-desc">Who we are</p>
-          <h2 class="body-title">Our Professional Team</h2>
-          <p class="body-excerpt">
+          <p class="suptitle">Who we are</p>
+          <h2 class="title">Our Professional Team</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
           </p>
 
           <ul class="body-list">
             <li class="body-item">
               <img src="./images/team/team1.jpg" alt="company President" width="420" height="280" />
-              <h3 class="body-subtitle">John Doe</h3>
-              <p class="body-text">President</p>
+              <h3 class="subtitle">John Doe</h3>
+              <p class="text">President</p>
             </li>
 
             <li class="body-item">
               <img src="./images/team/team2.jpg" alt="Vice President" width="428" height="286" />
-              <h3 class="body-subtitle">Jane Doe</h3>
-              <p class="body-text">Vice President</p>
+              <h3 class="subtitle">Jane Doe</h3>
+              <p class="text">Vice President</p>
             </li>
 
             <li class="body-item">
               <img src="./images/team/team3.jpg" alt="Marketing Head" width="420" height="280" />
-              <h3 class="body-subtitle">Steve Smith</h3>
-              <p class="body-text">Marketing Head</p>
+              <h3 class="subtitle">Steve Smith</h3>
+              <p class="text">Marketing Head</p>
             </li>
           </ul>
         </div>
@@ -259,17 +265,17 @@
             width="680"
             height="460"
           />
-          <h2>Request Callback</h2>
-          <button type="button">Send</button>
+          <h2 class="title">Request Callback</h2>
+          <button class="button" type="button">Send</button>
         </div>
       </section>
     </main>
 
     <!-- =========================Иван========================= -->
 
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <ul class="footer list">
+        <ul class="list">
           <li class="footer-link soc-face">
             <a href=""
               ><img
