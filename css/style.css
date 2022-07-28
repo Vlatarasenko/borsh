@@ -153,9 +153,6 @@ img {
 }
 /*============= Vlad========== */
 
-.body {
-  background-color: teal;
-}
 /* можна винести вверх */
 .subtitle {
   padding-top: 11px;
@@ -206,6 +203,19 @@ img {
   display: flex;
   justify-content: center;
   gap: 25px;
+}
+
+.body-thumb {
+  position: relative;
+ 
+}
+
+.social-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+   
 }
 
 /* =========================SECTION VLAD========================= */
