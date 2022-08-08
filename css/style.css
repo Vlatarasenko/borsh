@@ -173,6 +173,72 @@ img {
   background-color: #28a745;
   color: #ffffff;
 }
+/*============= Vlad========== */
+
+/* можна винести вверх */
+.subtitle {
+  padding-top: 11px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.27;
+  text-align: center;
+  color: var(--text-color);
+}
+.suptitle {
+  padding-top: 50px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--text-color);
+}
+.title {
+  margin-bottom: 34px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: var(--text-color);
+}
+.text {
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--text-color);
+}
+/* ----------/можна винести вверх -------*/
+.employees-text {
+  padding-bottom: 59px;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--text-color);
+}
+.body-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.body-thumb {
+  position: relative;
+ 
+}
+
+.social-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+   
+}
 
 /* =========================SECTION VLAD========================= */
 
