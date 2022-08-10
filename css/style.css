@@ -17,8 +17,8 @@ html {
 .container {
   outline: 1px solid red;
   width: 1360px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -327,6 +327,17 @@ img {
 } */
 
 /* =========================Daryna========================= */
+.business-cases {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.business-cases__list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 48px;
+}
 
 /* .upper-text {
   font-size: 20px;
