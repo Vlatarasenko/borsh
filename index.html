@@ -22,9 +22,14 @@
     <!-- ===================header Серёжа============= -->
 
     <header class="header">
-      <div class="container">
+      <div class="container header-wrapper">
         <nav class="header-nav">
-          <a href="./images/logo.jpg" class="logo">Finance <span class="accent">Ledger</span></a>
+          <a href="./images/logo.jpg" class="logo">
+            <svg class="header-logo" width="39" height="30">
+              <use href="./images/sprite.svg#icon-logo"></use>
+            </svg>
+            Finance <span class="accent">Ledger</span></a
+          >
           <ul class="header-nav-list">
             <li class="header-nav-item">
               <a class="header-nav-link" href="">Home</a>
@@ -52,7 +57,12 @@
         <div class="container">
           <h1 class="preview_title">The Sky Is The Limit</h1>
           <p class="preview_text">We provide world class financial assistance</p>
-          <button type="button" class="button hero-button">Read More</button>
+          <button type="button" class="button hero-button">
+            <svg width="7" height="11" class="btn-icon">
+              <use href="./images/sprite.svg#icon-angle-right"></use>
+            </svg>
+            Read More
+          </button>
         </div>
       </section>
 
@@ -66,7 +76,7 @@
           <ul class="about-list">
             <li class="about-item">
               <div class="about-wrapper-icon">
-                <svg width="35" height="35">
+                <svg width="35" height="35" class="about-icon">
                   <use href="./images/sprite.svg#icon-university"></use>
                 </svg>
               </div>
@@ -79,7 +89,7 @@
 
             <li class="about-item">
               <div class="about-wrapper-icon">
-                <svg width="35" height="35">
+                <svg width="35" height="35" class="about-icon">
                   <use href="./images/sprite.svg#icon-book"></use>
                 </svg>
               </div>
@@ -92,7 +102,7 @@
 
             <li class="about-item">
               <div class="about-wrapper-icon">
-                <svg width="35" height="35">
+                <svg width="35" height="35" class="about-icon">
                   <use href="./images/sprite.svg#icon-pencil"></use>
                 </svg>
               </div>
@@ -367,25 +377,30 @@
 
       <!-- =========================Женя========================= -->
 
-     <!-- callback -->
-     <section class="">
-      <div class="container callback">
-        <img src="./images/callback/callback-img.jpg" alt="Request Callback" width="680" height="460">
+      <!-- callback -->
+      <section class="">
+        <div class="container callback">
+          <img
+            src="./images/callback/callback-img.jpg"
+            alt="Request Callback"
+            width="680"
+            height="460"
+          />
 
-        <div class="callback-request">
-          <p class="callback-title ">Request Callback</p>
-          <form class="form-callback">
-            <label for="">
-              <input placeholder="Enter your name" type="text" class="callback-input">
-            </label>
-            <label for="">
-              <input placeholder="Enter email*" type="text" class="callback-input one">
-            </label>
-            <button class="button">Send</button>
-          </form>
+          <div class="callback-request">
+            <p class="callback-title">Request Callback</p>
+            <form class="form-callback">
+              <label for="">
+                <input placeholder="Enter your name" type="text" class="callback-input" />
+              </label>
+              <label for="">
+                <input placeholder="Enter email*" type="text" class="callback-input one" />
+              </label>
+              <button class="button">Send</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </main>
 
     <!-- =========================Иван========================= -->

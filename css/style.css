@@ -62,6 +62,13 @@ img {
   text-align: center;
 
   color: var(--primary-color);
+
+  background-color: transparent;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--primary-color);
+  color: var(--primary-accent);
 }
 
 .subtitle {
@@ -105,6 +112,13 @@ img {
   left: 0;
   width: 100%;
 }
+
+.header-wrapper {
+  padding-top: 2px;
+  padding-left: 50px;
+  padding-right: 46px;
+}
+
 .header-nav {
   display: flex;
 }
@@ -114,12 +128,17 @@ img {
   color: var(--primary-accent);
 }
 
+.header-logo {
+  fill: var(--primary-accent);
+}
+
 .accent {
   color: var(--primary-color);
 }
 .header-nav-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 38px;
   margin-left: auto;
 }
@@ -142,6 +161,7 @@ img {
   padding-bottom: 284px;
 }
 .preview_title {
+  margin-bottom: 45px;
   font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
@@ -150,6 +170,7 @@ img {
 }
 
 .preview_text {
+  margin-bottom: 29px;
   font-size: 22px;
   line-height: 1.67;
   text-align: center;
@@ -158,8 +179,31 @@ img {
 }
 
 .hero-button {
-  background: var(--primary-accent);
+  display: block;
+  background-color: var(--primary-accent);
   border-radius: 5px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: transparent;
+  cursor: pointer;
+  transition: background-color var(--transition-change), color var(--transition-change);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--primary-color);
+  color: var(--primary-accent);
+}
+
+.hero-button:hover .btn-icon,
+.hero-button:focus .btn-icon {
+  fill: var(--primary-accent);
+}
+
+.btn-icon {
+  fill: var(--primary-color);
+  transition: fill var(--transition-change);
 }
 
 /* ============Секция Саши============ */
@@ -224,6 +268,9 @@ img {
   gap: 70px;
 }
 
+.about-icon {
+  fill: var(--primary-color);
+}
 /* =========================Секция Яны========================= */
 
 .page-provide {
@@ -261,6 +308,13 @@ img {
   border-radius: 5px;
   background-color: var(--primary-accent);
   color: var(--primary-color);
+  transition: background-color var(--transition-change), color var(--transition-change);
+}
+
+.provide-container .button:hover,
+.provide-container .button:focus {
+  background-color: var(--primary-color);
+  color: var(--primary-accent);
 }
 
 /*============= Vlad========== */
@@ -401,6 +455,13 @@ img {
   border: 1px solid #ffffff;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color var(--transition-change), color var(--transition-change);
+}
+
+.button-f:hover,
+.button-f:focus {
+  background-color: var(--primary-color);
+  color: var(--secondary-accent);
 }
 /* =========================Daryna========================= */
 .business-cases {
@@ -436,7 +497,6 @@ img {
 }
 */
 
-
 /* callback */
 
 .callback {
@@ -447,7 +507,7 @@ img {
 .callback-request {
   display: block;
 
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 
   padding: 78px 30px;
 }
@@ -463,7 +523,6 @@ img {
 .form-callback {
   display: flex;
   flex-direction: column;
-
 }
 
 .callback-input {
@@ -474,11 +533,10 @@ img {
   line-height: 1.5;
   color: var(--send-text);
 
-
   border: transparent;
 }
 
-.one{
+.one {
   margin-bottom: 60px;
 }
 .callback .button {
@@ -488,7 +546,16 @@ img {
   font-size: 18px;
   line-height: 1.4;
   border-radius: 5px;
+  border-color: transparent;
+  transition: background-color var(--transition-change), color var(--transition-change);
+  cursor: pointer;
+}
+
+.callback .button:hover,
+.callback .button:focus {
   border-color: var(--primary-accent);
+  background-color: var(--primary-color);
+  color: var(--primary-accent);
 }
 
 /* footer */
@@ -507,6 +574,7 @@ img {
 
 .footer-link {
   fill: var(--primary-color);
+  transition: fill var(--transition-change), color var(--transition-change);
 }
 
 .footer-link:hover,
@@ -522,5 +590,3 @@ img {
   text-align: center;
   color: #ffffff;
 }
-
-
