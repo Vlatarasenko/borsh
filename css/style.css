@@ -540,6 +540,7 @@ img {
   margin-bottom: 60px;
 }
 .callback .button {
+  padding: 10px 280px;
   color: var(--primary-color);
   background-color: var(--primary-accent);
   font-weight: 400;
