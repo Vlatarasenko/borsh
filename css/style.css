@@ -128,6 +128,68 @@ img {
   border-radius: 5px;
 }
 
+/* ============Секция Саши============ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.about {
+  background-color: var(--secondary-color);
+}
+
+.about-container {
+  padding-top: 40px;
+  padding-bottom: 19px;
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.about-wrapper-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--primary-accent);
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+}
+
+.about-title {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.about-text {
+  line-height: 1.56;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.about-list {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
 /* =========================Секция Яны========================= */
 
 .page-provide {
